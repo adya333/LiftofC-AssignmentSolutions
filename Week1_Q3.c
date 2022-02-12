@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
-{   printf("enter the number\n");
-    int var;
+{   int n;int var;
+    printf("enter the number\n");   
     scanf("%d",&var);
-    int n=var%2;
+     n=var%2;
     switch(n)
     {
         case 0:
-         printf("\neven\n");
-         break;
+         printf("the number is even\n");
+         break;        
         default:
-         printf("\nodd\n");
+         printf("the number is odd\n");
          break;
     }
 
