@@ -5,17 +5,29 @@ int main()
     int red ;
     char branch[50];
     char hobbies[50];
-    printf("enter the info\n");
+    //Tking inputs
+    printf("Enter name:");
     gets(name);
-    scanf("%d", &red);
+    
+    printf("Enter branch:");
     gets(branch);
+    
+    printf("Enter hobbies");
     gets(hobbies);
+    
+    printf("Enter registration no.");
+    scanf("%d",&red);
+    
+    //Printing all details
+    printf("\nNAME:");
     puts(name);
-    printf("\n");
-    printf("%d\n",red);
+    printf("BRANCH:");
     puts(branch);
-    printf("\n");
+    printf("HOBBIES:");
     puts(hobbies);
+    printf("REGISTRATION NUMBER:%d",red);
+    
     return 0;
 
 }
+
