@@ -8,12 +8,12 @@ int main()
     printf("enter the info\n");
     gets(name);
     scanf("%d", &red);
-    scanf("%s", &branch);
-    scanf("%s", &hobbies);
+    gets(branch);
+    gets(hobbies);
     puts(name);
     printf("%d\n",red);
-    printf("%s\n",branch);
-    printf("%s\n",hobbies);
+    puts(branch);
+    puts(hobbies);
     return 0;
 
 }
