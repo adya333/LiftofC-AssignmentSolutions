@@ -11,8 +11,10 @@ int main()
     gets(branch);
     gets(hobbies);
     puts(name);
+    printf("\n");
     printf("%d\n",red);
     puts(branch);
+    printf("\n");
     puts(hobbies);
     return 0;
 
